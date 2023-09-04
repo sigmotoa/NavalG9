@@ -3,6 +3,7 @@ package com.sigmotoa.navalg9;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ImageButton btnR0C0 = findViewById(R.id.btn_1);
+        Button btnR0C1 = findViewById(R.id.btn_2);
 
         btnR0C0.setOnClickListener(v -> {
                 btnR0C0.setBackgroundColor(getResources().getColor(R.color.rojo));
